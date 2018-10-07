@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 
 import unittest
+import sys
+sys.path.append('app/')
 
 def test_all():
     loader = unittest.TestLoader()
